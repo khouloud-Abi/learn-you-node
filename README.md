@@ -32,10 +32,17 @@ Note: Run the commands from the root of repo.
     2. Select "MY FIRST I/O!"
     3. Run `learnyounode verify 03-my-first-io/program.js`
   - [Output of my results](03-my-first-io/results.txt)
-3. [My First Async I/O](04-my-first-async-io)
+4. [My First Async I/O](04-my-first-async-io)
   - Test program: `learnyounode run 04-my-first-async-io/program.js`
   - Verify results
     1. Run `learnyounode`
     2. Select "MY FIRST ASYNC I/O!"
     3. Run `learnyounode verify 04-my-first-async-io/program.js`
   - [Output of my results](04-my-first-async-io/results.txt)
+5. [Filtered LS](05-filtered-ls)
+  - Test program: `learnyounode run 05-filtered-ls/program.js`
+  - Verify results
+    1. Run `learnyounode`
+    2. Select "FILTERED LS"
+    3. Run `learnyounode verify 05-filtered-ls/program.js`
+  - [Output of my results](05-filtered-ls/results.txt)
