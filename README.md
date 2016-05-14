@@ -24,4 +24,4 @@ Note: Run the commands from the root of repo.
     1. Run `learnyounode`
     2. Select "BABY STEPS"
     3. Run `learnyounode verify 02-baby-steps/program.js`
-  - [Output of results](/01-hello-world/results.txt)
+  - [Output of results](/02-baby-steps/results.txt)
