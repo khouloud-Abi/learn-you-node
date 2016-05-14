@@ -4,6 +4,6 @@ const getSum = (numbers) => {
   return numbers.reduce((previousNumber, currentNumber) => {
     return Number(previousNumber) + Number(currentNumber);
   });
-}
+};
 
 console.log(getSum(numbers));
