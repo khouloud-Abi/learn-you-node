@@ -1,0 +1,61 @@
+
+Your submission results compared to the expected:
+
+────────────────────────────────────────────────────────────────────────────────
+
+1.  ACTUAL:    "You little ripper ace! bloody we're going spag bol. He hasn't got a cleanskin bloody get a dog up ya jumbuck. You little ripper cracker how built like a galah. He hasn't got a pretty spiffy how as stands out like billabong. "
+1.  EXPECTED:  "You little ripper ace! bloody we're going spag bol. He hasn't got a cleanskin bloody get a dog up ya jumbuck. You little ripper cracker how built like a galah. He hasn't got a pretty spiffy how as stands out like billabong. "
+
+2.  ACTUAL:    "Mad as a mokkies to she'll be right good onya. Lets throw a piker where get a dog up ya bushranger. Shazza got us some billabong mate as cross as a wuss. Get a dog up ya bities flamin trent from punchy sheila. "
+2.  EXPECTED:  "Mad as a mokkies to she'll be right good onya. Lets throw a piker where get a dog up ya bushranger. Shazza got us some billabong mate as cross as a wuss. Get a dog up ya bities flamin trent from punchy sheila. "
+
+3.  ACTUAL:    "Get a dog up ya top end also stands out like a struth. He's got a massive truckie my she'll be right yobbo. Built like a cockie when she'll be right wuss. Lets throw a donger bloody get a dog up ya smokes. "
+3.  EXPECTED:  "Get a dog up ya top end also stands out like a struth. He's got a massive truckie my she'll be right yobbo. Built like a cockie when she'll be right wuss. Lets throw a donger bloody get a dog up ya smokes. "
+
+4.  ACTUAL:    ""
+4.  EXPECTED:  ""
+
+
+────────────────────────────────────────────────────────────────────────────────
+
+  ✓ Submission results match expected  
+   
+ # PASS  
+   
+  Your solution to JUGGLING ASYNC passed!  
+   
+  Here's the official solution in case you want to compare notes:  
+   
+ ─────────────────────────────────────────────────────────────────────────────  
+   
+     var http = require('http')  
+     var bl = require('bl')  
+     var results = []  
+     var count = 0  
+       
+     function printResults () {  
+       for (var i = 0; i < 3; i++)  
+         console.log(results[i])  
+     }  
+       
+     function httpGet (index) {  
+       http.get(process.argv[2 + index], function (response) {  
+         response.pipe(bl(function (err, data) {  
+           if (err)  
+             return console.error(err)  
+       
+           results[index] = data.toString()  
+           count++  
+       
+           if (count == 3)  
+             printResults()  
+         }))  
+       })  
+     }  
+       
+     for (var i = 0; i < 3; i++)  
+       httpGet(i)  
+   
+ ─────────────────────────────────────────────────────────────────────────────  
+  You have 4 challenges left. Type 'learnyounode' to show the menu.  
+   

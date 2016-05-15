@@ -59,3 +59,9 @@ Note: Run the commands from the root of repo.
     1. Run `learnyounode select HTTP COLLECT`
     2. Run `learnyounode verify 08-http-collect/program.js`
   - [Output of my results](08-http-collect/results.txt)
+9. [Juggling Async](09-juggling-async)
+  - Test program: `learnyounode run 09-juggling-async/program.js`
+  - Verify results
+    1. Run `learnyounode select JUGGLING ASYNC`
+    2. Run `learnyounode verify 09-juggling-async/program.js`
+  - [Output of my results](09-juggling-async/results.txt)
