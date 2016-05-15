@@ -53,3 +53,10 @@ Note: Run the commands from the root of repo.
     2. Select "MAKE IT MODULAR"
     3. Run `learnyounode verify 06-make-it-modular/program.js`
   - [Output of my results](06-make-it-modular/results.txt)
+7. [HTTP Client](07-http-client)
+  - Test program: `learnyounode run 07-http-client/program.js`
+  - Verify results
+    1. Run `learnyounode`
+    2. Select "HTTP CLIENT"
+    3. Run `learnyounode verify 07-http-client/program.js`
+  - [Output of my results](07-http-client/results.txt)
