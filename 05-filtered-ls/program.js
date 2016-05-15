@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const listFiles = (directory, fileExt) => {
+function listFiles(directory, fileExt) {
   fileExt = `.${fileExt}`;
 
   fs.readdir(directory, (err, files) => {
@@ -13,6 +13,6 @@ const listFiles = (directory, fileExt) => {
       }
     });
   });
-};
+}
 
 listFiles(process.argv[2], process.argv[3]);

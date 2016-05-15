@@ -46,3 +46,10 @@ Note: Run the commands from the root of repo.
     2. Select "FILTERED LS"
     3. Run `learnyounode verify 05-filtered-ls/program.js`
   - [Output of my results](05-filtered-ls/results.txt)
+6. [Make It Modular](06-make-it-modular)
+  - Test program: `learnyounode run 06-make-it-modular/program.js`
+  - Verify results
+    1. Run `learnyounode`
+    2. Select "MAKE IT MODULAR"
+    3. Run `learnyounode verify 06-make-it-modular/program.js`
+  - [Output of my results](06-make-it-modular/results.txt)
