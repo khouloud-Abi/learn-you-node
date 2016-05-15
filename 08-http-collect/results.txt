@@ -1,0 +1,46 @@
+
+Your submission results compared to the expected:
+
+────────────────────────────────────────────────────────────────────────────────
+
+1.  ACTUAL:    "532"
+1.  EXPECTED:  "532"
+
+2.  ACTUAL:    "He's got a massive rotten bloody lets get some coldie. Get a dog up ya bush bash mate shazza got us some booze bus. As dry as a down under how it'll be budgie smugglers. Mad as a ironman no worries flat out like a mickey mouse mate. He's got a massive buck's night bloody gutful of barbie."
+2.  EXPECTED:  "He's got a massive rotten bloody lets get some coldie. Get a dog up ya bush bash mate shazza got us some booze bus. As dry as a down under how it'll be budgie smugglers. Mad as a ironman no worries flat out like a mickey mouse mate. He's got a massive buck's night bloody gutful of barbie."
+
+3.  ACTUAL:    "Get a dog up ya mate how lets get some dag. We're going fair go also he hasn't got a your shout. As stands out like sunnies my we're going dob. You little ripper franger mate as cross as a ute. Lets throw a stoked with as cunning as a flick. "
+3.  EXPECTED:  "Get a dog up ya mate how lets get some dag. We're going fair go also he hasn't got a your shout. As stands out like sunnies my we're going dob. You little ripper franger mate as cross as a ute. Lets throw a stoked with as cunning as a flick. "
+
+4.  ACTUAL:    ""
+4.  EXPECTED:  ""
+
+
+────────────────────────────────────────────────────────────────────────────────
+
+  ✓ Submission results match expected  
+   
+ # PASS  
+   
+  Your solution to HTTP COLLECT passed!  
+   
+  Here's the official solution in case you want to compare notes:  
+   
+ ─────────────────────────────────────────────────────────────────────────────  
+   
+     var http = require('http')  
+     var bl = require('bl')  
+       
+     http.get(process.argv[2], function (response) {  
+       response.pipe(bl(function (err, data) {  
+         if (err)  
+           return console.error(err)  
+         data = data.toString()  
+         console.log(data.length)  
+         console.log(data)  
+       }))    
+     })  
+   
+ ─────────────────────────────────────────────────────────────────────────────  
+  You have 5 challenges left. Type 'learnyounode' to show the menu.  
+   
