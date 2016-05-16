@@ -1,0 +1,26 @@
+
+Your submission results compared to the expected:
+
+                 ACTUAL                                 EXPECTED                
+────────────────────────────────────────────────────────────────────────────────
+
+   "HELLO WORLD"                       ==    "HELLO WORLD"                      
+   ""                                  ==    ""                                 
+
+────────────────────────────────────────────────────────────────────────────────
+
+  ✓ Submission results match expected  
+   
+ # PASS  
+   
+  Your solution to HELLO WORLD passed!  
+   
+  Here's the official solution in case you want to compare notes:  
+   
+ ─────────────────────────────────────────────────────────────────────────────  
+   
+     console.log("HELLO WORLD")  
+   
+ ─────────────────────────────────────────────────────────────────────────────  
+  You have 12 challenges left. Type 'learnyounode' to show the menu.  
+   
