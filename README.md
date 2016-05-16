@@ -77,9 +77,17 @@ Note: Run the commands from the root of repo.
     1. Run `learnyounode select HTTP FILE SERVER`
     2. Run `learnyounode verify 11-http-file-server/program.js`
   - [Output of my results](11-http-file-server/results.txt)
-12. [HTTP Uppercaserer](11-http-uppercaserer)
-  - Test program: `learnyounode run 11-http-uppercaserer/program.js`
+12. [HTTP Uppercaserer](12-http-uppercaserer)
+  - Test program: `learnyounode run 12-http-uppercaserer/program.js`
   - Verify results
     1. Run `learnyounode select HTTP UPPERCASERER`
-    2. Run `learnyounode verify 11-http-uppercaserer/program.js`
-  - [Output of my results](11-http-uppercaserer/results.txt)
+    2. Run `learnyounode verify 12-http-uppercaserer/program.js`
+  - [Output of my results](12-http-uppercaserer/results.txt)
+13. [HTTP JSON API Server](13-http-json-api-server)
+  - Test program: `learnyounode run 13-http-json-api-server/program.js`
+  - Verify results
+    1. Run `learnyounode select HTTP JSON API SERVER`
+    2. Run `learnyounode verify 13-http-json-api-server/program.js`
+  - [Output of my results](13-http-json-api-server/results.txt)
+
+![Screen Shot of Learn You Node Completed Tasks](images/screen-shot.png)
