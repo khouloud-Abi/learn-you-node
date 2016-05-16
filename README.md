@@ -71,3 +71,9 @@ Note: Run the commands from the root of repo.
     1. Run `learnyounode select TIME SERVER`
     2. Run `learnyounode verify 10-time-server/program.js`
   - [Output of my results](10-time-server/results.txt)
+11. [HTTP File Server](11-http-file-server)
+  - Test program: `learnyounode run 11-http-file-server/program.js`
+  - Verify results
+    1. Run `learnyounode select HTTP FILE SERVER`
+    2. Run `learnyounode verify 11-http-file-server/program.js`
+  - [Output of my results](11-http-file-server/results.txt)
