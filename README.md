@@ -77,3 +77,9 @@ Note: Run the commands from the root of repo.
     1. Run `learnyounode select HTTP FILE SERVER`
     2. Run `learnyounode verify 11-http-file-server/program.js`
   - [Output of my results](11-http-file-server/results.txt)
+12. [HTTP Uppercaserer](11-http-uppercaserer)
+  - Test program: `learnyounode run 11-http-uppercaserer/program.js`
+  - Verify results
+    1. Run `learnyounode select HTTP UPPERCASERER`
+    2. Run `learnyounode verify 11-http-uppercaserer/program.js`
+  - [Output of my results](11-http-uppercaserer/results.txt)

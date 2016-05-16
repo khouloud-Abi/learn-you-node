@@ -1,0 +1,47 @@
+
+Your submission results compared to the expected:
+
+                 ACTUAL                                 EXPECTED                
+────────────────────────────────────────────────────────────────────────────────
+
+   "RORT"                              ==    "RORT"                             
+   "CUT SNAKE"                         ==    "CUT SNAKE"                        
+   "CREAM"                             ==    "CREAM"                            
+   "CUT LUNCH COMMANDO"                ==    "CUT LUNCH COMMANDO"               
+   "MONGREL"                           ==    "MONGREL"                          
+   "COATHANGER"                        ==    "COATHANGER"                       
+   "SMOKO"                             ==    "SMOKO"                            
+   "SICKIE"                            ==    "SICKIE"                           
+   "SLAB"                              ==    "SLAB"                             
+   "TRUCKIE"                           ==    "TRUCKIE"                          
+   ""                                  ==    ""                                 
+
+────────────────────────────────────────────────────────────────────────────────
+
+  ✓ Submission results match expected  
+   
+ # PASS  
+   
+  Your solution to HTTP UPPERCASERER passed!  
+   
+  Here's the official solution in case you want to compare notes:  
+   
+ ─────────────────────────────────────────────────────────────────────────────  
+   
+     var http = require('http')  
+     var map = require('through2-map')  
+       
+     var server = http.createServer(function (req, res) {  
+       if (req.method != 'POST')  
+         return res.end('send me a POST\n')  
+       
+       req.pipe(map(function (chunk) {  
+         return chunk.toString().toUpperCase()  
+       })).pipe(res)  
+     })  
+       
+     server.listen(Number(process.argv[2]))  
+   
+ ─────────────────────────────────────────────────────────────────────────────  
+  You have one challenge left. Type 'learnyounode' to show the menu.  
+   
