@@ -65,3 +65,9 @@ Note: Run the commands from the root of repo.
     1. Run `learnyounode select JUGGLING ASYNC`
     2. Run `learnyounode verify 09-juggling-async/program.js`
   - [Output of my results](09-juggling-async/results.txt)
+10. [Time Server](10-time-server)
+  - Test program: `learnyounode run 10-time-server/program.js`
+  - Verify results
+    1. Run `learnyounode select TIME SERVER`
+    2. Run `learnyounode verify 10-time-server/program.js`
+  - [Output of my results](10-time-server/results.txt)
