@@ -1,6 +1,6 @@
 # Learn You Node
 
-My work from [learn you node](https://github.com/workshopper/learnyounode).
+Work from [learn you node](https://github.com/workshopper/learnyounode).
 
 ## Getting Started
 1. Install [Node.js](http://nodejs.org)
