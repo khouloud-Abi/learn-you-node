@@ -4,7 +4,7 @@ My work from [learn you node](https://github.com/workshopper/learnyounode).
 
 ## Getting Started
 1. Install [Node.js](http://nodejs.org)
-2. Clone repo: `git clone https://github.com/jluangphasy/learn-you-node`
+2. Clone repo: `git clone https://github.com/jluangphasy-archive/learn-you-node`
 3. Install learn you node: `sudo npm install learnyounode -g`
 4. Install node modules: `npm install`
 
